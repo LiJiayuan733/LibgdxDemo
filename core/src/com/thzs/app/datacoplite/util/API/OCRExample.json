@@ -1,0 +1,777 @@
+{
+  "Code": 0,
+  "Data": [
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          73.0,
+          89.0
+        ],
+        "LowerRight": [
+          304.0,
+          89.0
+        ],
+        "UpperLeft": [
+          73.0,
+          65.0
+        ],
+        "UpperRight": [
+          304.0,
+          65.0
+        ]
+      },
+      "Score": 0.9767324924468994,
+      "Words": "第二部分：成绩信息"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          335.0,
+          87.0
+        ],
+        "LowerRight": [
+          892.0,
+          87.0
+        ],
+        "UpperLeft": [
+          335.0,
+          63.0
+        ],
+        "UpperRight": [
+          892.0,
+          63.0
+        ]
+      },
+      "Score": 0.935455858707428,
+      "Words": "检验码:87ED64FCCC9AE53F686DE44D24303D18"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          187.0,
+          146.0
+        ],
+        "LowerRight": [
+          238.0,
+          146.0
+        ],
+        "UpperLeft": [
+          187.0,
+          118.0
+        ],
+        "UpperRight": [
+          238.0,
+          118.0
+        ]
+      },
+      "Score": 0.9989386796951294,
+      "Words": "语文"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          504.0,
+          146.0
+        ],
+        "LowerRight": [
+          555.0,
+          146.0
+        ],
+        "UpperLeft": [
+          504.0,
+          117.0
+        ],
+        "UpperRight": [
+          555.0,
+          117.0
+        ]
+      },
+      "Score": 0.9998111724853516,
+      "Words": "数学"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          820.0,
+          146.0
+        ],
+        "LowerRight": [
+          872.0,
+          146.0
+        ],
+        "UpperLeft": [
+          820.0,
+          117.0
+        ],
+        "UpperRight": [
+          872.0,
+          117.0
+        ]
+      },
+      "Score": 0.9975032806396484,
+      "Words": "外语"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          1082.0,
+          144.0
+        ],
+        "LowerRight": [
+          1243.0,
+          144.0
+        ],
+        "UpperLeft": [
+          1082.0,
+          120.0
+        ],
+        "UpperRight": [
+          1243.0,
+          120.0
+        ]
+      },
+      "Score": 0.9256842732429504,
+      "Words": "选考科目1名称"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          198.0,
+          202.0
+        ],
+        "LowerRight": [
+          227.0,
+          202.0
+        ],
+        "UpperLeft": [
+          198.0,
+          178.0
+        ],
+        "UpperRight": [
+          227.0,
+          178.0
+        ]
+      },
+      "Score": 0.8789247274398804,
+      "Words": "93"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          513.0,
+          202.0
+        ],
+        "LowerRight": [
+          546.0,
+          202.0
+        ],
+        "UpperLeft": [
+          513.0,
+          178.0
+        ],
+        "UpperRight": [
+          546.0,
+          178.0
+        ]
+      },
+      "Score": 0.9990911483764648,
+      "Words": "94"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          831.0,
+          204.0
+        ],
+        "LowerRight": [
+          861.0,
+          204.0
+        ],
+        "UpperLeft": [
+          831.0,
+          178.0
+        ],
+        "UpperRight": [
+          861.0,
+          178.0
+        ]
+      },
+      "Score": 0.9220824837684631,
+      "Words": "83"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          1141.0,
+          200.0
+        ],
+        "LowerRight": [
+          1185.0,
+          200.0
+        ],
+        "UpperLeft": [
+          1141.0,
+          178.0
+        ],
+        "UpperRight": [
+          1185.0,
+          178.0
+        ]
+      },
+      "Score": 0.9440411329269409,
+      "Words": "地理"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          132.0,
+          313.0
+        ],
+        "LowerRight": [
+          293.0,
+          313.0
+        ],
+        "UpperLeft": [
+          132.0,
+          287.0
+        ],
+        "UpperRight": [
+          293.0,
+          287.0
+        ]
+      },
+      "Score": 0.9339919686317444,
+      "Words": "选考科目1成绩"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          425.0,
+          311.0
+        ],
+        "LowerRight": [
+          634.0,
+          311.0
+        ],
+        "UpperLeft": [
+          425.0,
+          287.0
+        ],
+        "UpperRight": [
+          634.0,
+          287.0
+        ]
+      },
+      "Score": 0.9565850496292114,
+      "Words": "本次选考科目1成绩"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          765.0,
+          313.0
+        ],
+        "LowerRight": [
+          927.0,
+          313.0
+        ],
+        "UpperLeft": [
+          765.0,
+          287.0
+        ],
+        "UpperRight": [
+          927.0,
+          287.0
+        ]
+      },
+      "Score": 0.9384034872055054,
+      "Words": "选考科目2名称"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          1082.0,
+          313.0
+        ],
+        "LowerRight": [
+          1243.0,
+          313.0
+        ],
+        "UpperLeft": [
+          1082.0,
+          287.0
+        ],
+        "UpperRight": [
+          1243.0,
+          287.0
+        ]
+      },
+      "Score": 0.9528526663780212,
+      "Words": "选考科目2成绩"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          198.0,
+          370.0
+        ],
+        "LowerRight": [
+          227.0,
+          370.0
+        ],
+        "UpperLeft": [
+          198.0,
+          344.0
+        ],
+        "UpperRight": [
+          227.0,
+          344.0
+        ]
+      },
+      "Score": 0.999564528465271,
+      "Words": "93"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          515.0,
+          368.0
+        ],
+        "LowerRight": [
+          544.0,
+          368.0
+        ],
+        "UpperLeft": [
+          515.0,
+          344.0
+        ],
+        "UpperRight": [
+          544.0,
+          344.0
+        ]
+      },
+      "Score": 0.8893154859542847,
+      "Words": "93"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          824.0,
+          368.0
+        ],
+        "LowerRight": [
+          868.0,
+          368.0
+        ],
+        "UpperLeft": [
+          824.0,
+          346.0
+        ],
+        "UpperRight": [
+          868.0,
+          346.0
+        ]
+      },
+      "Score": 0.986655056476593,
+      "Words": "物理"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          1148.0,
+          370.0
+        ],
+        "LowerRight": [
+          1177.0,
+          370.0
+        ],
+        "UpperLeft": [
+          1148.0,
+          344.0
+        ],
+        "UpperRight": [
+          1177.0,
+          344.0
+        ]
+      },
+      "Score": 0.8939836621284485,
+      "Words": "73"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          108.0,
+          480.0
+        ],
+        "LowerRight": [
+          317.0,
+          480.0
+        ],
+        "UpperLeft": [
+          108.0,
+          455.0
+        ],
+        "UpperRight": [
+          317.0,
+          455.0
+        ]
+      },
+      "Score": 0.9964955449104309,
+      "Words": "本次选考科目2成绩"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          447.0,
+          480.0
+        ],
+        "LowerRight": [
+          610.0,
+          480.0
+        ],
+        "UpperLeft": [
+          447.0,
+          455.0
+        ],
+        "UpperRight": [
+          610.0,
+          455.0
+        ]
+      },
+      "Score": 0.9180564284324646,
+      "Words": "选考科目3名称"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          765.0,
+          480.0
+        ],
+        "LowerRight": [
+          927.0,
+          480.0
+        ],
+        "UpperLeft": [
+          765.0,
+          455.0
+        ],
+        "UpperRight": [
+          927.0,
+          455.0
+        ]
+      },
+      "Score": 0.8734678626060486,
+      "Words": "选考科目3成绩"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          1058.0,
+          480.0
+        ],
+        "LowerRight": [
+          1267.0,
+          480.0
+        ],
+        "UpperLeft": [
+          1058.0,
+          455.0
+        ],
+        "UpperRight": [
+          1267.0,
+          455.0
+        ]
+      },
+      "Score": 0.9305976033210754,
+      "Words": "本次选考科目3成绩"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          198.0,
+          539.0
+        ],
+        "LowerRight": [
+          227.0,
+          539.0
+        ],
+        "UpperLeft": [
+          198.0,
+          513.0
+        ],
+        "UpperRight": [
+          227.0,
+          513.0
+        ]
+      },
+      "Score": 0.996906042098999,
+      "Words": "73"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          505.0,
+          539.0
+        ],
+        "LowerRight": [
+          553.0,
+          539.0
+        ],
+        "UpperLeft": [
+          505.0,
+          511.0
+        ],
+        "UpperRight": [
+          553.0,
+          511.0
+        ]
+      },
+      "Score": 0.9984259009361267,
+      "Words": "技术"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          831.0,
+          539.0
+        ],
+        "LowerRight": [
+          861.0,
+          539.0
+        ],
+        "UpperLeft": [
+          831.0,
+          513.0
+        ],
+        "UpperRight": [
+          861.0,
+          513.0
+        ]
+      },
+      "Score": 0.6686551570892334,
+      "Words": "91"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          1150.0,
+          537.0
+        ],
+        "LowerRight": [
+          1179.0,
+          537.0
+        ],
+        "UpperLeft": [
+          1150.0,
+          513.0
+        ],
+        "UpperRight": [
+          1179.0,
+          513.0
+        ]
+      },
+      "Score": 0.9874697923660278,
+      "Words": "78"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          176.0,
+          650.0
+        ],
+        "LowerRight": [
+          247.0,
+          650.0
+        ],
+        "UpperLeft": [
+          176.0,
+          622.0
+        ],
+        "UpperRight": [
+          247.0,
+          622.0
+        ]
+      },
+      "Score": 0.9997288584709167,
+      "Words": "特征分"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          505.0,
+          650.0
+        ],
+        "LowerRight": [
+          553.0,
+          650.0
+        ],
+        "UpperLeft": [
+          505.0,
+          620.0
+        ],
+        "UpperRight": [
+          553.0,
+          620.0
+        ]
+      },
+      "Score": 0.8129206299781799,
+      "Words": "总分"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          776.0,
+          648.0
+        ],
+        "LowerRight": [
+          917.0,
+          648.0
+        ],
+        "UpperLeft": [
+          776.0,
+          626.0
+        ],
+        "UpperRight": [
+          917.0,
+          626.0
+        ]
+      },
+      "Score": 0.9332265853881836,
+      "Words": "本次外语成绩"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          1102.0,
+          646.0
+        ],
+        "LowerRight": [
+          1221.0,
+          646.0
+        ],
+        "UpperLeft": [
+          1102.0,
+          620.0
+        ],
+        "UpperRight": [
+          1221.0,
+          620.0
+        ]
+      },
+      "Score": 0.9296607971191406,
+      "Words": "总分位次号"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          505.0,
+          707.0
+        ],
+        "LowerRight": [
+          551.0,
+          707.0
+        ],
+        "UpperLeft": [
+          505.0,
+          680.0
+        ],
+        "UpperRight": [
+          551.0,
+          680.0
+        ]
+      },
+      "Score": 0.9996493458747864,
+      "Words": "527"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          831.0,
+          705.0
+        ],
+        "LowerRight": [
+          861.0,
+          705.0
+        ],
+        "UpperLeft": [
+          831.0,
+          681.0
+        ],
+        "UpperRight": [
+          861.0,
+          681.0
+        ]
+      },
+      "Score": 0.8334893584251404,
+      "Words": "74"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          1112.0,
+          704.0
+        ],
+        "LowerRight": [
+          1216.0,
+          704.0
+        ],
+        "UpperLeft": [
+          1112.0,
+          683.0
+        ],
+        "UpperRight": [
+          1216.0,
+          683.0
+        ]
+      },
+      "Score": 0.9076390266418457,
+      "Words": "5-132600"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          187.0,
+          818.0
+        ],
+        "LowerRight": [
+          238.0,
+          818.0
+        ],
+        "UpperLeft": [
+          187.0,
+          789.0
+        ],
+        "UpperRight": [
+          238.0,
+          789.0
+        ]
+      },
+      "Score": 0.9989261627197266,
+      "Words": "备注"
+    },
+    {
+      "Coordinate": {
+        "LowerLeft": [
+          154.0,
+          876.0
+        ],
+        "LowerRight": [
+          269.0,
+          876.0
+        ],
+        "UpperLeft": [
+          154.0,
+          850.0
+        ],
+        "UpperRight": [
+          269.0,
+          850.0
+        ]
+      },
+      "Score": 0.9896881580352783,
+      "Words": "外语已合格;"
+    }
+  ],
+  "Message": "Success",
+  "RequestId": "07cfd3fb-39e1-4db1-9802-40928255d39a"
+}
