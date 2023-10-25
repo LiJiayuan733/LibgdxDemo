@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items>
+	<item id="default" unitX="16" unitY="16">
+		<img src="img/button/check_off.png" type="INTERNAL" x="0" y="0" height="16" width="16"/>
+	</item>
+	<item id="checked" unitX="16" unitY="16">
+		<img src="img/button/check_on.png" type="INTERNAL" x="0" y="0" height="16" width="16"/>
+	</item>
+</items>

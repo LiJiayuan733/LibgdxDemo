@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items>
+	<item id="hover" unitX="16" unitY="16">
+		<!--<rectangle x="1" y="1"  width="14" height="14" color="#FFFFFF99" fill="true"/>
+		<line x1="1" y1="1" x2="1" y2="5" color="#FFFF00FF"/>
+		<line x1="1" y1="1" x2="3" y2="1" color="#FFFF00FF"/>
+
+		<line x1="1" y1="15" x2="1" y2="10" color="#FFFF00FF"/>
+		<line x1="1" y1="15" x2="3" y2="15" color="#FFFF00FF"/>
+
+		<line x1="15" y1="1" x2="15" y2="5" color="#FFFF00FF"/>
+		<line x1="15" y1="1" x2="13" y2="1" color="#FFFF00FF"/>
+
+		<line x1="15" y1="15" x2="15" y2="10" color="#FFFF00FF"/>
+		<line x1="15" y1="15" x2="13" y2="15" color="#FFFF00FF"/>-->
+		<img src="img/button/button.png" type="INTERNAL" x="0" y="0" height="16" width="16"/>
+		<rectangle x="0" y="0"  width="16" height="16" color="#FFFFFF22" fill="true"/>
+	</item>
+	<item id="press_ed" unitX="16" unitY="16">
+		<!--<rectangle x="1" y="1"  width="14" height="14" color="#FFFFFF66" fill="true"/>-->
+		<img src="img/button/button_p.png" type="INTERNAL" x="0" y="0" height="16" width="16"/>
+	</item>
+	<item id="press_un" unitX="16" unitY="16">
+		<!--<rectangle x="0" y="1"  width="16" height="14" color="#FFFFFF99" fill="true"/>-->
+		<img src="img/button/button.png" type="INTERNAL" x="0" y="0" height="16" width="16"/>
+	</item>
+</items>

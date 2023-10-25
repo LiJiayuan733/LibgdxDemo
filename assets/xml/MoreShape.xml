@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items>
+    <item id="shape_ball">
+        <circle x="500" y="500" radius="500" color="#EEEEEEEE" fill="true"/>
+    </item>
+    <item id="background_rect" unitX="4" unitY="4">
+        <rectangle x="0" y="0"  width="4" height="4" color="#FFFFFFFF" fill="true"/>
+    </item>
+    <item id="background_rect_focus" unitX="4" unitY="4">
+        <rectangle x="0" y="0"  width="4" height="4" color="#66ccffff" fill="true"/>
+    </item>
+</items>

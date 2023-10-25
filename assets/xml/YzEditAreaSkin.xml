@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items>
+	<item id="default" unitX="16" unitY="16">
+		<rectangle x="0" y="0"  width="16" height="16" color="#FFFFFFAA" fill="true"/>
+	</item>
+	<item id="index" unitX="4" unitY="64">
+		<rectangle x="0" y="0"  width="2" height="64" color="#FF0000FF" fill="true"/>
+	</item>
+	<item id="border_default" unitX="128" unitY="128">
+		<rectangle x="1" y="1"  width="126" height="126" color="#FF0000FF" fill="false"/>
+	</item>
+</items>
