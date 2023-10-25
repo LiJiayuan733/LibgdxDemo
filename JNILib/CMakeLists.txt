@@ -1,0 +1,36 @@
+cmake_minimum_required(VERSION 3.25)
+project(JNILib CXX)
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(include)
+include_directories("C:\\Users\\32827\\.jdks\\corretto-17.0.7\\include")
+include_directories("C:\\Users\\32827\\.jdks\\corretto-17.0.7\\include\\win32")
+
+include_directories("C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\winrt")
+include_directories("C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\um")
+include_directories("C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\ucrt")
+include_directories("C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\shared")
+include_directories("C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\atlmfc\\include")
+include_directories("C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\include")
+include_directories("C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include")
+include_directories("C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\cppwinrt")
+link_directories("C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.22000.0\\um\\x64")
+link_directories("C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.22000.0\\ucrt\\x64")
+link_directories("C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\lib\\onecore\\x64")
+link_directories("C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\atlmfc\\lib\\spectre\\x64")
+
+include_directories(D:\\GitDown\\duilib\\DuiLib)
+link_directories(D:\\GitDown\\duilib\\DuiLib\\bin)
+include_directories("C:\\Users\\32827\\Desktop\\AppStart\\JNILib\\lib\\include")
+link_directories("C:\\Users\\32827\\Desktop\\AppStart\\JNILib\\lib\\lib-vc2022")
+
+#serialport
+#include_directories("D:\\GitDown\\SerialPort\\include")
+#link_directories("D:\\GitDown\\SerialPort\\build\\Debug")
+
+list ( APPEND PRJ_COMPILE_FEATURES cxx_std_20 )
+set ( CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /SUBSYSTEM:WINDOWS" )
+set ( CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /ENTRY:WinMainCRTStartup" )
+add_definitions(-DUNICODE)
+add_definitions(-D_UNICODE)
+add_library(JNILib SHARED source/NativeWindowsSupportUtils.cpp include/com_thzs_app_datacoplite_util_Native_windows_NativeWindowsSupportUtils.h)
