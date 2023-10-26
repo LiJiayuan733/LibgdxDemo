@@ -7,6 +7,9 @@ import com.thzs.app.datacoplite.ui.widget.yzcover.base.YzWidget;
 
 public class YzImage extends YzWidget {
     public Texture img=null;
+    public YzImage(int width,int height){
+        setSize(width,height);
+    }
     public YzImage() {
         setSize(20,20);
     }
