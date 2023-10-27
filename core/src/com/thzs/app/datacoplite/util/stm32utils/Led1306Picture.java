@@ -6,6 +6,7 @@ import com.badlogic.gdx.graphics.Pixmap;
 
 public class Led1306Picture {
     public static final int PIC_CREATE_MODE_PAGE=0;
+    public static final int LED_WIDTH=128;
     public int picCreateMode=PIC_CREATE_MODE_PAGE;
     protected FileHandle picFile;
     protected Pixmap pictureTemp;
