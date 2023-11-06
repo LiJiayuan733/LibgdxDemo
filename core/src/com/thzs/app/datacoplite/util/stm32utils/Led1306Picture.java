@@ -14,12 +14,27 @@ public class Led1306Picture {
     public int picCreateMode=PIC_CREATE_MODE_PAGE;
     protected FileHandle picFile;
     protected Pixmap pictureTemp;                //原图存档
-    //TODO: need dispose
     protected Pixmap pictureForWhiteAndBlack;    //黑白位图
     public Led1306Picture(FileHandle PicFile){
         this.picFile=PicFile;
-        this.pictureTemp=new Pixmap(PicFile);
+        this.pictureTemp=new Pixmap(LED_WIDTH,LED_HEIGHT,Pixmap.Format.RGBA8888);
+        AdaptedPicture(picFile);
         this.pictureForWhiteAndBlack=PicToWhiteAndBlack();
+    }
+    public void AdaptedPicture(FileHandle PicFile){
+        Pixmap pic=new Pixmap(PicFile);
+        int picWidth=pic.getWidth();
+        int picHeight=pic.getHeight();
+        boolean wh=(picWidth/picHeight>LED_WIDTH/LED_HEIGHT);
+        if(wh){
+            int mw=picWidth/LED_WIDTH;
+            int mHeight=picHeight/mw;
+            pictureTemp.drawPixmap(pic,0,0,picWidth,picHeight,0,(LED_HEIGHT-mHeight)/2,LED_WIDTH,mHeight);
+        }else{
+            int mh=picHeight/LED_HEIGHT;
+            int mWidth=picWidth/mh;
+            pictureTemp.drawPixmap(pic,0,0,picWidth,picHeight,(LED_WIDTH-mWidth)/2,0,mWidth,LED_HEIGHT);
+        }
     }
     /**
      * 对图像二进制处理并生成对应的图像
@@ -92,5 +107,9 @@ public class Led1306Picture {
     }
     public int PicPixelIsWhite(Pixmap pic,int x,int y){
         return pic.getPixel(x,y)==Color.WHITE.toIntBits() ?1:0;
+    }
+    public void dispose(){
+        pictureTemp.dispose();
+        pictureForWhiteAndBlack.dispose();
     }
 }

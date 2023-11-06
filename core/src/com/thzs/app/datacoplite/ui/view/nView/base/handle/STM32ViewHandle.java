@@ -62,6 +62,8 @@ public class STM32ViewHandle extends BaseViewHandle{
         instance.stage.addActor(Table_Center);
         instance.stage.addActor(Actor_WindowBar);
         ActorGroup.loadYzFocus();
+
+        instance.stage.setDebugAll(true);
     }
 
     @Override
@@ -158,18 +160,17 @@ public class STM32ViewHandle extends BaseViewHandle{
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 super.clicked(event, x, y);
-                Led1306Picture led1306Picture=new Led1306Picture(Gdx.files.absolute(Edit_PicturePath.getText()));
-                byte[] c=led1306Picture.CreateData();
-                //STM32F103VET6只支持最大64位发送，不然会发生未知错误
-                for(int i=0;i<c.length/64;i++){
-                    port.writeBytes(c,64,64*i);
-                    try {
-                        Thread.sleep(300);
-                    } catch (InterruptedException e) {
-                        throw new RuntimeException(e);
+                try {
+                    Led1306Picture led1306Picture = new Led1306Picture(Gdx.files.absolute(Edit_PicturePath.getText()));
+                    byte[] c = led1306Picture.CreateData();
+                    //STM32F103VET6只支持最大64位发送，不然会发生未知错误
+                    for (int i = 0; i < c.length / 64; i++) {
+                        port.writeBytes(c, 64, 64 * i);
                     }
+                    Log.i("发送完成");
+                }catch (Exception e){
+                    e.printStackTrace();
                 }
-                Log.i("发送完成");
                 //port.writeBytes(led1306Picture.CreateData(),1024);
             }
         });

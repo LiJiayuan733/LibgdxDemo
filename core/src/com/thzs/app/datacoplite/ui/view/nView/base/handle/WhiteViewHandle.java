@@ -37,8 +37,9 @@ public class WhiteViewHandle extends BaseViewHandle {
         Actor_Menu.setFillParent(false);
         Actor_Menu.pad(5);
         Actor_Body.setBounds(0,0,Game.STAGE_WIDTH,Game.STAGE_HEIGHT-Actor_WindowBar.getHeight());
-        ActorGroup.add(Actor_Button1=new YzButton("界面测试一"),Actor_Button2=new YzButton("yoloV5训练集生成"),Actor_Button3=new YzButton("后台服务开启"),Actor_Button4=new YzButton("界面测试二"),Actor_Button5=new YzButton("STM32测试")).find(YzButton.class).to(Actor_Menu).each(gdxQuery -> gdxQuery.cell().pad(5));
+        ActorGroup.add(Actor_Button1=new YzButton("界面测试一"),Actor_Button2=new YzButton("yoloV5训练集生成"),Actor_Button3=new YzButton("后台服务开启"),Actor_Button4=new YzButton("界面测试二"),Actor_Button5=new YzButton("STM32测试")).find(YzButton.class).to(Actor_Menu).each(gdxQuery -> gdxQuery.cell().pad(5).right());
         Actor_Body.add(Actor_Menu).width(Game.STAGE_WIDTH*0.3f).height(Actor_Body.getHeight()*0.7f);
+        Actor_Body.left();
         //ActorGroup.add(label=new YzLabel()).find(YzLabel.class).width(Actor_Menu.getWidth()).color(Color.valueOf("#66CCFFFF")).to(Actor_Menu).fillParent();
         instance.stage.addActor(Actor_Body);
         instance.stage.addActor(Actor_WindowBar);
